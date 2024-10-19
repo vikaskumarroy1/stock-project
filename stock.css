@@ -1,0 +1,41 @@
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color:#fff;
+   
+}
+.select-heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.select{
+    width: 35vh;
+    height: 5vh;
+    justify-content: center;
+    margin-left: 85vh;
+}
+.select-div{
+    display:flex;
+}
+.load-btn{
+    background-color: greenyellow;
+   
+}
+.search-box input{
+    width: 35vh;
+    height: 5vh;
+    justify-content: center;
+    margin-left: 85vh;
+}
+.search-btn{
+    width: 5vw;
+    height: 5vh;
+    background-color: blueviolet;
+}

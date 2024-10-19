@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stock.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="heading">Stock Tracker Dashboard</h1>
+    </div>
+    <h2 class="select-heading">Select Trending Stock</h2>
+
+
+          <div class="select-div">
+            <div class="div1">
+                <select id="options" name="options" class="select">
+                    <option value="option1">AAPL</option>
+                    <option value="option2">GOOGL</option>
+                    <option value="option3">MSFT</option>
+                    <option value="option4">AMZN</option>
+                    <option value="option5">TSLA</option>
+                    <option value="option5">FB</option>
+                    <option value="option5">NFLX</option>
+                    <option value="option5">NVDR</option>
+                    <option value="option5">BABA</option>
+                    <option value="option5">INTC</option>
+                  </select>
+            </div>
+            <button class="load-btn" onclick="loadStock()">Load Stock</button>
+          </div> 
+          <div class="search-box">
+            <input type="text" placeholder="Search for product(eg-AA)">
+            <button class="search-btn">Search</button>
+            
+          </div> 
+        
+       <h1>Stock information</h1>
+       
+   
+
+
+    <script src="stock.js"></script>
+</body>
+</html>
